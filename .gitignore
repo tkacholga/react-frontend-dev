@@ -10,9 +10,7 @@ npm-debug.log
 .idea
 
 # folders
-server
-internals
-docs
+
 app/config/*
 
 # files

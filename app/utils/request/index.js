@@ -1,7 +1,6 @@
-import 'whatwg-fetch';
-import { handleResponse } from './error';
+import "whatwg-fetch";
+import { handleResponse } from "./error";
 
 export function request(url, options = {}) {
-  return fetch(url, options)
-    .then(handleResponse);
+  return fetch(url, options).then(handleResponse);
 }
