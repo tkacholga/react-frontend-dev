@@ -10,7 +10,7 @@ import { storage } from "containers/App/constants";
 
 function* doLogin({ payload }) {
   // const requestURL = getRequestUrl('/auth/login')
-  const requestURL = getRequestUrl("/accessToken");
+  const requestURL = getRequestUrl("/auth/login");
   const body = JSON.stringify(payload);
 
   const options = {
@@ -21,7 +21,7 @@ function* doLogin({ payload }) {
 
   try {
     const user = yield call(request, requestURL, options);
-
+    console.log(user);
     // const user = {user_data: [{result: {name: 'Testcase1'}}], token: 'sampletokengenerated' }
     if (user && user.token) {
       localStorageAdapter.setItem(storage.USER, JSON.stringify(user));

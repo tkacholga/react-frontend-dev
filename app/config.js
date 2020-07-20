@@ -1,5 +1,6 @@
 let config = {
-  apiUrl: "http://api.renmark.ir",
+  apiUrl: "http://localhost:8080",
+  // apiUrl: "http://api.renmark.ir",
   // option2: false
 };
 
