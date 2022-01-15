@@ -301,7 +301,7 @@
     "react-test-renderer": "^16.13.1",
     "rimraf": "^3.0.2",
     "sass-loader": "^9.0.2",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "style-loader": "^1.2.1",
     "tinycolor2": "^1.4.1",
     "url-loader": "^4.1.0",
