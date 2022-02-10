@@ -293,7 +293,7 @@
     "lint-staged": "^10.2.11",
     "ngrok": "^3.2.7",
     "node-plop": "^0.26.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "null-loader": "^4.0.0",
     "offline-plugin": "^5.0.7",
     "plop": "^2.7.2",
